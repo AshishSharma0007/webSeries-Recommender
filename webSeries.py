@@ -32,16 +32,16 @@ if st.button('Recommend Series'):
             with col1:
                 st.subheader(names[0 + 4*i])
                 st.image(posters[0 + 4*i],use_column_width='auto')
-                st.write(rating[0 + 4*i])
+                st.write("IMDB Rating: {0}".format(rating[0 + 4*i]))
             with col2:
                 st.subheader(names[1 + 4*i])
                 st.image(posters[1 + 4*i],use_column_width='auto')
-                st.write(rating[0 + 4*i])
+                st.write("IMDB Rating: {0}".format(rating[1 + 4*i]))
             with col3:
                 st.subheader(names[2 + 4*i])
                 st.image(posters[2 + 4*i],use_column_width='auto')
-                st.write(rating[0 + 4*i])
+                st.write("IMDB Rating: {0}".format(rating[2 + 4*i]))
             with col4:
                 st.subheader(names[3 + 4*i])
                 st.image(posters[3 + 4*i],use_column_width='auto')
-                st.write(rating[0 + 4*i])
+                st.write("IMDB Rating: {0}".format(rating[2 + 4*i]))
